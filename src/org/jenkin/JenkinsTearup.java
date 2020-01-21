@@ -13,6 +13,8 @@ public static void main(String[] args) {
 	d.findElement(By.id("email")).sendKeys("shyam");
 	d.findElement(By.id("pass")).sendKeys("12345");
 	d.findElement(By.id("loginbutton")).click();
+	d.quit();
+	
 	
 }
 }
